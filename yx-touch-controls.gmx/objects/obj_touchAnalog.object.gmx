@@ -240,7 +240,7 @@ if ( dist &gt; 0 ) {
     }
     
     // Check thumb Y
-    if ( thumb_y &gt; x ) {
+    if ( thumb_y &gt; y ) {
         y_pos   = thumb_y - y - dead_min;
     } else if ( thumb_y &lt; y ) {
         y_pos   = y - thumb_y - dead_min;
@@ -264,6 +264,7 @@ if ( thumb_x != x &amp;&amp; hold == false &amp;&amp; press == false ) {
 if ( thumb_y != y &amp;&amp; hold == false &amp;&amp; press == false ) {
     thumb_y = approach( thumb_y, y, thumb_r / 2 );
 }
+
 </string>
           </argument>
         </arguments>
