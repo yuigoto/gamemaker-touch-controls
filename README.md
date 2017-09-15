@@ -1,5 +1,5 @@
-YX : GameMaker : Repository Template
-====================================
+YX : GameMaker : Touch Controls
+===============================
 
 > Hi! These are some touch control widgets I made while I was porting my previous LD entry, **[Rainwater (is Free)](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=50909)** for Android.
 
