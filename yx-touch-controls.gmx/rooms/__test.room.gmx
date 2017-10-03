@@ -52,9 +52,9 @@
   </views>
   <instances>
     <instance objName="obj_touchAnalog" x="96" y="224" name="inst_8A131B13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_touchButton" x="448" y="224" name="inst_D22AAFCA" locked="0" code="text = &quot;X&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_touchButton" x="512" y="160" name="inst_97DC767F" locked="0" code="text = &quot;Y&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_touchButton" x="576" y="224" name="inst_92FC1B4F" locked="0" code="text = &quot;B&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_touchButton" x="448" y="224" name="inst_D22AAFCA" locked="0" code="text = &quot;X&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_touchButton" x="512" y="160" name="inst_97DC767F" locked="0" code="text = &quot;Y&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_touchButton" x="576" y="224" name="inst_92FC1B4F" locked="0" code="text = &quot;B&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_touchButton" x="512" y="288" name="inst_D646B56E" locked="0" code="text = &quot;A&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
