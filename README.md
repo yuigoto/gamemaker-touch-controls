@@ -1,5 +1,4 @@
-YX : GameMaker : Touch Controls
-===============================
+# GameMaker Touch Controls
 
 > Hi! These are some touch control widgets I made while I was porting my previous LD entry, **[Rainwater (is Free)](http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=50909)** for Android.
 
@@ -7,11 +6,15 @@ You'll need to have **GameMaker: Studio** (v1.4x) or **GameMaker Studio 2**.
 
 There are only two objects in this project and, to check their status, all you have to do is watch for updates on them. You can have two analog buttons on screen just fine too! :smile:
 
+----------------------------------------------------------------------
+
 ## Dependencies
 
 As I said above, you'll need **GameMaker: Studio** or **GameMaker Studio 2** to run this project.
 
-## How to Use
+----------------------------------------------------------------------
+
+## How To
 
 Place any of the objects in the room and cook your own way to watch for their properties, then you're good to go! :+1:
 
@@ -24,33 +27,30 @@ Also, no guarantees on performance or anything else. This project comes with no 
 ### Tracking the Values
 
 - On **Analog Sticks**, these values are available for you to track:
-	- `hold` (boolean): if the stick is being held down;
-	- `press` (boolean): if the stick was just pressed;
-	- `release` (boolean): if the stick was just released;
-	- `h_pos` (float): the value of the stick's X axis, ranges from -1 ~ 1;
-	- `v_pos` (float): the value of the stick's Y axis, ranges from -1 ~ 1; 
+	- `hold` (boolean): if the stick is being held down
+	- `press` (boolean): if the stick was just pressed
+	- `release` (boolean): if the stick was just released
+	- `h_pos` (float): the value of the stick's X axis, ranges from -1 ~ 1
+	- `v_pos` (float): the value of the stick's Y axis, ranges from -1 ~ 1
 - On **Buttons**, these are the available values:
-	- `hold` (boolean): if the button is being held down;
-	- `press` (boolean): if the button was just pressed;
-	- `release` (boolean): if the button was just released;
+	- `hold` (boolean): if the button is being held down
+	- `press` (boolean): if the button was just presse
+	- `release` (boolean): if the button was just released
 
 There are more values you can set and check, so look into the source code for more.
 
+----------------------------------------------------------------------
+
 ## Authors
 
-- **Fabio Y. Goto** ([lab@yuiti.com.br][mailto01]);
+See `AUTHORS.md` for more information.
+
+----------------------------------------------------------------------
 
 ## License
 
-The code in this repository is licensed under the `MIT License`. Check the `LICENSE.md` file for details on it.
+This project is licensed under the `MIT License`. See `LICENSE.md` for more details on the subjects of the license.
 
------
+----------------------------------------------------------------------
 
-_© 2017 Fabio Y. Goto_
-
-[\\]: ======================================================================
-
-[mailto01]: mailto:lab@yuiti.com.br
-
-[\\]: ======================================================================
-
+_©2017-2020 Fabio Y. Goto_
