@@ -142,33 +142,25 @@ if ( dist > 0 ) {
     if ( thumb_x > x ) {
         x_pos   = thumb_x - x - dead_min;
     } else if ( thumb_x < x ) {
-        x_pos   = x - thumb_x - dead_min;
+        x_pos   = 0 - ( x - thumb_x - dead_min );
     } else {
         x_pos   = 0;
     }
     
     // Check H pos
-    if ( x_pos > 0 ) {
-        h_pos   = x_pos / ( thumb_max * deadzone_r );
-    } else {
-        h_pos   = 0;
-    }
+    h_pos   = x_pos / ( thumb_max * deadzone_r );
     
     // Check thumb Y
     if ( thumb_y > y ) {
         y_pos   = thumb_y - y - dead_min;
     } else if ( thumb_y < y ) {
-        y_pos   = y - thumb_y - dead_min;
+        y_pos   = 0 - ( y - thumb_y - dead_min );
     } else {
         y_pos   = 0;
     }
     
     // Check V pos
-    if ( y_pos > 0 ) {
-        v_pos   = y_pos / ( thumb_max * deadzone_r );
-    } else {
-        v_pos   = 0;
-    }
+    v_pos   = y_pos / ( thumb_max * deadzone_r );
 }
 
 // Checks hold and press states and, if both are false, return to center
